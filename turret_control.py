@@ -1,3 +1,11 @@
+# Listens for keystrokes and moves the turret in the appropriate direction
+# WASD for motion
+# E to toggle LED
+# F to fire
+
+# Alan Ness
+# https://github.com/Avidness
+
 import sys
 import termios
 import contextlib
