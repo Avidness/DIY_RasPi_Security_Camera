@@ -13,6 +13,116 @@ v = [159,0,255]
 e = [0,0,0]
 w = [255,255,255]
 
+eye_default = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,r,r,r,r,r,e,
+e,r,r,e,e,r,r,e,
+e,r,r,e,e,r,r,e,
+e,r,r,r,r,r,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_up = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,r,e,e,r,r,e,
+e,r,r,e,e,r,r,e,
+e,r,r,r,r,r,r,e,
+e,r,r,r,r,r,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_down = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,r,r,r,r,r,e,
+e,r,r,r,r,r,r,e,
+e,r,r,e,e,r,r,e,
+e,r,r,e,e,r,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_left = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,r,r,r,r,r,e,
+e,r,e,e,r,r,r,e,
+e,r,e,e,r,r,r,e,
+e,r,r,r,r,r,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_right = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,r,r,r,r,r,e,
+e,r,r,r,e,e,r,e,
+e,r,r,r,e,e,r,e,
+e,r,r,r,r,r,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_right_up = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,r,r,e,e,r,e,
+e,r,r,r,e,e,r,e,
+e,r,r,r,r,r,r,e,
+e,r,r,r,r,r,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_right_down = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,r,r,r,r,r,e,
+e,r,r,r,r,r,r,e,
+e,r,r,r,e,e,r,e,
+e,r,r,r,e,e,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_left_up = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,e,e,r,r,r,e,
+e,r,e,e,r,r,r,e,
+e,r,r,r,r,r,r,e,
+e,r,r,r,r,r,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_left_down = [
+e,e,e,e,e,e,e,e,
+e,e,r,r,r,r,e,e,
+e,r,r,r,r,r,r,e,
+e,r,r,r,r,r,r,e,
+e,r,e,e,r,r,r,e,
+e,r,e,e,r,r,r,e,
+e,e,r,r,r,r,e,e,
+e,e,e,e,e,e,e,e
+]
+
+eye_alert = [
+e,r,r,r,r,r,r,e,
+r,r,r,r,r,r,r,r,
+r,r,e,e,e,e,r,r,
+r,r,e,e,e,e,r,r,
+r,r,e,e,e,e,r,r,
+r,r,e,e,e,e,r,r,
+r,r,r,r,r,r,r,r,
+e,r,r,r,r,r,r,e
+]
+
 cat_eyes_open = [
 e,r,e,e,e,e,r,e,
 r,r,r,e,e,r,r,r,
@@ -77,6 +187,28 @@ e,r,e,e,r,e,e,e,
 e,r,e,e,r,e,e,e,
 e,w,b,e,w,b,e,e,
 e,w,w,e,w,w,e,e
+]
+
+crab_start = [
+e,w,w,e,w,w,e,e,
+e,w,b,e,w,b,e,e,
+e,r,e,e,r,e,e,e,
+e,r,e,e,r,e,e,e,
+r,r,r,r,r,e,r,r,
+r,r,r,r,r,r,r,e,
+r,r,r,r,r,e,r,r,
+e,r,e,r,e,e,e,e
+]
+
+crab_end = [
+e,w,w,e,w,w,e,e,
+e,w,b,e,w,b,e,e,
+e,r,e,e,r,e,e,e,
+e,r,e,e,r,e,e,e,
+r,r,r,r,r,e,r,r,
+r,r,r,r,r,r,r,e,
+r,r,r,r,r,e,r,r,
+r,e,r,e,r,e,e,e
 ]
 
 green_dot = [
